@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <title>自定义checkbox，radio样式</title>
+     
+     <!--<script type="text/javascript" src="script.js"></script>-->
+     <link href="2.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body>
+	<div id="wrap">
+		<h2>伪元素实现：</h2>
+		<div class="radio">
+<input class="radios" type="radio" name="sex" id="radiobox"/>
+<label for="radiobox"></label>
+<input type="radio" id="radiobox1" name="sex" class="radios">
+<label for="radiobox1"></label>
+</div>
+		<div class="checkbox1">
+<input class="checkbox" type="checkbox" id="checkBox"/>
+<label for="checkBox"></label>
+<input class="checkbox" type="checkbox" id="checkBox1"/>
+<label for="checkBox1"></label>
+</div>
+
+<h2>雪碧图实现:</h2>
+<div class="radio">
+	<input type="radio" name="sex1" id="radiobox_sprit" class="radiobox_sprit">
+	<label for="radiobox_sprit"></label>
+	<input type="radio" name="sex1" id="radiobox1_sprit" class="radiobox_sprit">
+	<label for="radiobox1_sprit"></label>
+</div>
+<div class="checkbox1">
+<input type="checkbox" name="" id="checkbox_sprit" class="checkbox_sprit">
+<label for="checkbox_sprit"></label>
+<input class="checkbox_sprit" type="checkbox" id="checkbox1_sprit"/>
+<label for="checkbox1_sprit"></label>
+</div>
+
+</body>
+</html>
